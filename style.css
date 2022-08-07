@@ -1,0 +1,81 @@
+/* common style */
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    margin-top: 80px;
+    font-family: 'Poppins', sans-serif;
+}
+/* Header style
+-------------------- */
+.header-influencer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.icone{
+    text-decoration: none;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    justify-content: space-between;
+    align-items: center;
+}
+/* main start---------- */
+/* 1st section */
+.camera{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+}
+.camerapic{
+    margin-left: 80px;
+    background-image: url(./images/Circle\ design.svg);
+}
+.camera h1{
+    font-size: 60px;
+}
+.camera button{
+    color: rgb(251, 251, 251);
+    background-color: deeppink;
+    border-radius: 90px;
+    border: none;
+    font-size: 18px;
+    padding: 10px 25px 10px 25px;
+    justify-content: space-between; 
+}
+/* 1st section End 
+-----------------------------------*/
+/* Online Shopping logo */
+.onlineshopping{
+    margin-top: 110px;
+    border: 1px solid gray;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    justify-content: center;
+}
+/* Popular Collection start */
+.popular{
+    margin-top: 110px;
+}
+.popular h2{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.collection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: space-between;
+    padding: 15px;
+    box-shadow: 2px 2px 9px gray;
+}
+.pic{
+    width: 100%;
+}
