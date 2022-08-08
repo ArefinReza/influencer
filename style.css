@@ -1,10 +1,13 @@
 /* common style */
 body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+main, header{
     max-width: 1200px;
     margin: 0 auto;
     background-color: #ffffff;
     margin-top: 80px;
-    font-family: 'Poppins', sans-serif;
 }
 /* Header style
 -------------------- */
@@ -79,3 +82,62 @@ body{
 .pic{
     width: 100%;
 }
+.details{
+    text-align: left;
+}
+.details h2{
+    text-align: left;
+    margin-bottom: 15px;
+}
+.reating{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    font-size: 11px;
+    color:black;
+}
+.star{
+    color: #FB8200;
+    margin-bottom: 0;
+}
+h3{
+    font-size: 15px;
+    margin-top: 0;
+}
+.see-more{
+    color: deeppink;
+    margin-left: 280%;
+    font-size: 20px;
+    width: 200px;
+    border: none;
+    background-color: white;
+}
+/* end product style */
+.end-section{
+    margin-top: 80px;
+}
+.featured-text h1{
+    font-size: 36px;
+}
+/* End all section Style */
+
+/* --------
+footer style
+----------------- */
+.footer-div{
+    background-color: rgb(28, 7, 79);
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+.footer-div h3{
+    font-size: 27px;
+    margin-bottom: 5px;
+}
+.footer-div h4{
+    font-size: 15px;
+    font-weight: 200;
+    margin-top: 0;
+}
+/* End */
